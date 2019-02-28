@@ -16,7 +16,7 @@ Few Exercises where I applied 'Design Patterns' and refactored code in Ruby
 **5. Decorator pattern**
 <br/>Problem statement : read DecoratorExercise.rb in 'Problem'. There are two Coffee classes, Decaf and Espresso. Two types of Condiments can be added to the coffee, Milk and Sugar. Class DecafWithMilkAndSugar created for combination of decaf with milk and sugar. Main concern - 5 other combination classes still to write. More Coffee types are on the way (DarkRoast and HouseBlend) and further Condiments are possible (Syrup, Sweetener, Soy). Apply the Decorator pattern.
 
-**Below patterns applied on problem statement - Lego Invoice Creator**
+**6. Below patterns applied on problem statement - Lego Invoice Creator**
 <br/>Problem statement : read file InvoiceCreator.rb containing an implementation of a trivial invoice generator for a company that makes Lego parts. The program has implementations for three types of part: Brick, Door and Window. The InvoiceCreator class creates an invoice, and the Invoice class can return a string that represents the invoice in printable form. I applied four patterns one by one in sequence mentioned below : 
 
 **1 - Composite pattern, 2 - Abstract Factory pattern, 3 - Flyweight pattern, 4 - Specification pattern**
